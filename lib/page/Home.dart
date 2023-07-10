@@ -16,7 +16,7 @@ class Home extends StatefulWidget {
 class _HomeState extends State<Home> {
   Future<List<Posts>> fetchPosts() async {
     final response =
-        await http.get(Uri.parse('https://kodepos-2d475.firebaseio.com/kota_kab/k69.json?print=pretty'));
+        await http.get(Uri.parse('https://al-quran-8d642.firebaseio.com/surat/1.json?print=pretty'));
 
     print(response.statusCode);
     print(response.body);
